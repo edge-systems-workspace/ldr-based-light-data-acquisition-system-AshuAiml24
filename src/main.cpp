@@ -21,7 +21,12 @@ void setup() {
 
     // Initialize Serial communication (9600 baud rate)
 
-    // TODO 4:
+    Serial.println("=================================");
+    Serial.println("  LDR Light Intensity Monitor");
+    Serial.println("  System Initializing...");
+    Serial.println("=================================");
+}
+
     // Print system initialization message
 }
 
